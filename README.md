@@ -12,7 +12,7 @@ This is a library for providing more useful and powerful interface to manage you
 - Supported by all browsers
 
 ## Installation
-Download "cookie-manager.min.js" and include in your project.
+Download `cookie-manager.min.js` and include in your project.
 
 ```html
   <script src="cookie-manager.min.js"></script>
@@ -20,9 +20,9 @@ Download "cookie-manager.min.js" and include in your project.
 
 
 ## Usage
-After include the "cookie-manager.min.js", you will be able to use "CookieManager" object.
+After include the `cookie-manager.min.js`, you will be able to use `CookieManager` object.
 
-You can also load "CookieManager" object as an AMD, CommonJS or Node module.
+You can also load `CookieManager` object as an AMD, CommonJS or Node module.
 
 
 ## Functionalities
@@ -36,11 +36,11 @@ Creating a new cookie
 ```
 
 - `name(String)` cookie name
-- 'value(String)' cookie value
-- 'expires(Optional) (Number)' cookie expiration in days
-- 'domain(Optional) (String)' cookie domain
-- 'path(Optional) (String)' cookie path
-- 'secure(Optional) (Boolean)' cookie ssl support flag
+- `value(String)` cookie value
+- `expires(Optional) (Number)` cookie expiration in days
+- `domain(Optional) (String)` cookie domain
+- `path(Optional) (String)` cookie path
+- `secure(Optional) (Boolean)` cookie ssl support flag
 
 ### Retrieving a cookie
 
@@ -50,7 +50,7 @@ Getting a cookie with a given cookie name
   CookieManager.get(name);
 ```
 
-- 'name(String)' cookie name
+- `name(String)` cookie name
 
 ### Updating a cookie
 
@@ -60,12 +60,12 @@ Updating an existing cookie
   CookieManager.update(name, value, expires, domain, path, secure);
 ```
 
-- 'name(String)' cookie name
-- 'value(String)' cookie value
-- 'expires(Optional) (Number)' cookie expiration in days
-- 'domain(Optional) (String)' cookie domain
-- 'path(Optional) (String)' cookie path
-- 'secure(Optional) (Boolean)' cookie ssl support flag
+- `name(String)` cookie name
+- `value(String)` cookie value
+- `expires(Optional) (Number)` cookie expiration in days
+- `domain(Optional) (String)` cookie domain
+- `path(Optional) (String)` cookie path
+- `secure(Optional) (Boolean)` cookie ssl support flag
 
 ### Deleting a cookie
 
@@ -76,7 +76,7 @@ Deleting a cookie with a given cookie name
   CookieManager.remove(name);
 ```
 
-- 'name(String)' cookie name
+- `name(String)` cookie name
 
 ### Listing a cookie
 
