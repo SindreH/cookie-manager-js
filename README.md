@@ -14,9 +14,10 @@ This is a library for providing more useful and powerful interface to manage you
 ## Installation
 Download "cookie-manager.min.js" and include in your project.
 
-'''html
+```html
   <script src="cookie-manager.min.js"></script>
-'''
+```
+
 
 ## Usage
 After include the "cookie-manager.min.js", you will be able to use "CookieManager" object.
