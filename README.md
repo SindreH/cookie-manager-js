@@ -24,12 +24,13 @@ After include the "cookie-manager.min.js", you will be able to use "CookieManage
 
 You can also load "CookieManager" object as an AMD, CommonJS or Node module.
 
+
 ## Functionalities
 
 ### Creating a cookie
-'''js
+```js
   CookieManager.set(name, value, expires, domain, path, secure);
-'''
+```
 
 - 'name(String)' cookie name
 - 'value(String)' cookie value
