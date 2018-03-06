@@ -93,3 +93,7 @@ Clears all of the existing cookies
 ```js
   CookieManager.clear();
 ```
+
+## Author and license
+
+Created and maintained by [Hepsøe](https://github.com/SindreH) under [MIT](License.md) License
