@@ -28,6 +28,9 @@ You can also load "CookieManager" object as an AMD, CommonJS or Node module.
 ## Functionalities
 
 ### Creating a cookie
+
+Creating a new cookie
+
 ```js
   CookieManager.set(name, value, expires, domain, path, secure);
 ```
@@ -41,11 +44,37 @@ You can also load "CookieManager" object as an AMD, CommonJS or Node module.
 
 ### Retrieving a cookie
 
+Getting a cookie with a given cookie name
+
+```js
+  CookieManager.get(name, value, expires, domain, path, secure);
+```
+
 ### Updating a cookie
 
+
+
+```js
+  CookieManager.set(name, value, expires, domain, path, secure);
+```
 ### Deleting a cookie
 
+
+
+```js
+  CookieManager.remove(name, value, expires, domain, path, secure);
+```
 ### Listing a cookie
 
+
+
+```js
+  CookieManager.getAll(name, value, expires, domain, path, secure);
+```
 ### Clearing all cookies
-  
+
+
+
+```js
+  CookieManager.clear(name, value, expires, domain, path, secure);
+```
