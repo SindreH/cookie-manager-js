@@ -47,34 +47,49 @@ Creating a new cookie
 Getting a cookie with a given cookie name
 
 ```js
-  CookieManager.get(name, value, expires, domain, path, secure);
+  CookieManager.get(name);
 ```
+
+- 'name(String)' cookie name
 
 ### Updating a cookie
 
-
+Updating an existing cookie
 
 ```js
-  CookieManager.set(name, value, expires, domain, path, secure);
+  CookieManager.update(name, value, expires, domain, path, secure);
 ```
+
+- 'name(String)' cookie name
+- 'value(String)' cookie value
+- 'expires(Optional) (Number)' cookie expiration in days
+- 'domain(Optional) (String)' cookie domain
+- 'path(Optional) (String)' cookie path
+- 'secure(Optional) (Boolean)' cookie ssl support flag
+
 ### Deleting a cookie
 
+Deleting a cookie with a given cookie name
 
 
 ```js
-  CookieManager.remove(name, value, expires, domain, path, secure);
+  CookieManager.remove(name);
 ```
+
+- 'name(String)' cookie name
+
 ### Listing a cookie
 
-
+Returns all of the existing cookies
 
 ```js
-  CookieManager.getAll(name, value, expires, domain, path, secure);
+  CookieManager.getAll();
 ```
+
 ### Clearing all cookies
 
-
+Clears all of the existing cookies
 
 ```js
-  CookieManager.clear(name, value, expires, domain, path, secure);
+  CookieManager.clear();
 ```
